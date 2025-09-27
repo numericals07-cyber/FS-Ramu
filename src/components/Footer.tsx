@@ -61,9 +61,9 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 md:px-8">
         <div className={`${isMobile ? 'flex flex-col' : 'grid grid-cols-1 md:grid-cols-3 gap-8'}`}>
           {/* About Section */}
-          <FooterSection title="Cinepeace" id="about">
+          <FooterSection title="Flickystream" id="about">
             <p className="text-white/70 text-sm mb-4">
-              Discover and enjoy the best movies and TV shows all in one place. Cinepeace helps you find, explore, and watch your favorite content online.
+              Discover and enjoy the best movies and TV shows all in one place. Flickystream helps you find, explore, and watch your favorite content online.
             </p>
             {isMobile && (
               <div className="flex items-center mb-2">
